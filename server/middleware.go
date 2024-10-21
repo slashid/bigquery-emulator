@@ -187,6 +187,20 @@ func withProjectMiddleware() func(http.Handler) http.Handler {
 	}
 }
 
+func withMethodOverrideMiddleware() func(http.Handler) http.Handler {
+	return func(next http.Handler) http.Handler {
+		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+			methodOverride := r.Header.Get("X-HTTP-Method-Override")
+			if methodOverride == "" {
+				next.ServeHTTP(w, r)
+				return
+			}
+			r.Method = methodOverride
+			next.ServeHTTP(w, r)
+		})
+	}
+}
+
 func withDatasetMiddleware() func(http.Handler) http.Handler {
 	return func(next http.Handler) http.Handler {
 		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
