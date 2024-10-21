@@ -193,8 +193,8 @@ github.com/sirupsen/logrus v1.9.0 h1:trlNQbNUG3OdDrDil03MCb1H2o9nJ1x4/5LYw7byDE0
 github.com/sirupsen/logrus v1.9.0/go.mod h1:naHLuLoDiP4jHNo9R0sCBMtWGeIprob74mVsIT4qYEQ=
 github.com/slashid/go-zetasql v0.5.5-slashid-0.2.0 h1:2v0TTZihXadlJZqZ5iUhQkBNl1QuaqwkOkOBi8iEVSI=
 github.com/slashid/go-zetasql v0.5.5-slashid-0.2.0/go.mod h1:xvvooX2RG404vnbdFZuAM8bTFksYwVUlqeIUrUNuo40=
-github.com/slashid/go-zetasqlite v0.19.3-slashid-0.1.0 h1:PwDpy2XlT0WFkiMq0yIvT8X+C6GpwgIjwapVnYLSFCE=
-github.com/slashid/go-zetasqlite v0.19.3-slashid-0.1.0/go.mod h1:ThavIQcmI6a/sVTpvJtj+idUui32gwbnXe1jeb7pISY=
+github.com/slashid/go-zetasqlite v0.19.3-slashid-0.1.1 h1:OxszjrUHTH75djuu+oi1R+aklc3RlU0VYBJMqPmvL48=
+github.com/slashid/go-zetasqlite v0.19.3-slashid-0.1.1/go.mod h1:ThavIQcmI6a/sVTpvJtj+idUui32gwbnXe1jeb7pISY=
 github.com/spaolacci/murmur3 v0.0.0-20180118202830-f09979ecbc72 h1:qLC7fQah7D6K1B0ujays3HV9gkFtllcxhzImRR7ArPQ=
 github.com/spaolacci/murmur3 v0.0.0-20180118202830-f09979ecbc72/go.mod h1:JwIasOWyU6f++ZhiEuf87xNszmSA2myDM2Kzu9HwQUA=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
